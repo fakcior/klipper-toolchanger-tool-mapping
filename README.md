@@ -18,8 +18,8 @@ Recommended to put SELECT_TOOL T=0 before homing in PRINT_START macro to ensure 
 
 ## Usage
 
-RESET_TOOL_MAPPING - restores default mapping
-SET_TOOL_MAPPING T=<x> TOOL=<y> – Assigns command T<x> to control physical tool <y>.
+  RESET_TOOL_MAPPING - restores default mapping
+  SET_TOOL_MAPPING T=x TOOL=y – Assigns command Tx to control physical tool y.
 
 ## Contributing
 
