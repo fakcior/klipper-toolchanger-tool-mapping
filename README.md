@@ -4,12 +4,15 @@ This repository provides a tool mapping for klipper-toolchanger.
 
 **Note: This project is a work in progress. Features and configurations may change as development continues.**
 
+**IMPORTANT!: Compatible with Moonraker v0.9.3-62**
+
 ## Installation
 
 1. Add tool_mapping.cfg to your config (should be included after Tool_x.cfgs, so it overrides their Tx definitions)
 2. Add variables.cfg to your config
-3. Replace Moonraker's metadata.py
-4. Restart Klipper
+3. Add toolchanger_metadata.py to moonraker/components directory.
+4. Add [toolchanger_metadata] section below [file_manager] in moonraker.conf
+5. Restart Klipper
 
 ## Configuration
 
